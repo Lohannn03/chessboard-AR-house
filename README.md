@@ -92,7 +92,7 @@ This object was intentionally designed to be different from the lecture example.
 
 # Video
 ▶ Watch AR Demo 
-https://github.com/Lohannn03/chessboard-AR-house/blob/main/ar_demo.mp4
+<video src="https://github.com/Lohannn03/chessboard-AR-house/blob/main/ar_demo.mp4" width="100%" controls></video>
 
 
 ## Example Output
