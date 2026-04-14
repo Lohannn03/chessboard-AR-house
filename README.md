@@ -54,65 +54,63 @@ Place the following files in the same folder:
 ### 2. Run the program
 ```bash
 python pose_estimation_ar.py --calib calibration_result.npz --video chessboard.mov --board_w 10 --board_h 7 --cellsize 0.025
-ontrols
-ESC — quit
-I — toggle pose information
-Camera Calibration Result Used
+controls
+- ESC — quit
+- I — toggle pose information
+
+## Camera Calibration Result Used
 
 The following camera calibration result from Homework #3 was used:
+- Number of applied images: 20
+- RMS error (OpenCV return): 1.298914
+- Reprojection RMSE: 1.298914
 
-Number of applied images: 20
-RMS error (OpenCV return): 1.298914
-Reprojection RMSE: 1.298914
-Camera Matrix (K)
+## Camera Matrix (K)
 [[1.07339050e+03 0.00000000e+00 6.35329353e+02]
  [0.00000000e+00 1.00426491e+03 3.31775263e+02]
  [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
-Distortion Coefficients
+
+## Distortion Coefficients
 [ 0.21716506 -0.96385693 -0.02145939 -0.00209672  1.41297032]
-AR Object
 
-The AR object used in this project is a custom 3D House model.
+## AR Object
 
+# The AR object used in this project is a custom 3D House model.
 The model includes:
-
-base
-walls
-roof
-door
-window
-chimney
-
+- base
+- walls
+- roof
+- door
+- window
+- chimney
 This object was intentionally designed to be different from the lecture example.
 
-Demo
-Screenshot
+## Demo
+# Screenshot
 https://github.com/Lohannn03/chessboard-AR-house/raw/main/ar_demo.mp4
 
-Video
-
+# Video
 ▶ Watch AR Demo 
-<img width="1919" height="1079" alt="ar_demo" src="https://github.com/user-attachments/assets/2693f38b-afc4-4cd8-9086-d87d49963c91" />
+https://github.com/Lohannn03/chessboard-AR-house/blob/main/ar_demo.mp4
 
 
-Example Output
+## Example Output
 
 The program successfully:
+- Detected chessboard corners
+- Estimated the camera pose
+- Projected the AR house onto the chessboard
+- Generated an AR visualization video
 
-detected chessboard corners
-estimated the camera pose
-projected the AR house onto the chessboard
-generated an AR visualization video
-Notes
-The chessboard should be clearly visible in the video
-The calibration result must be obtained from the same camera used for the AR video
-If chessboard detection fails, AR visualization will not be displayed
-A better calibration result can improve AR stability and accuracy
-Conclusion
+## Notes
+- The chessboard should be clearly visible in the video
+- The calibration result must be obtained from the same camera used for the AR video
+- If chessboard detection fails, AR visualization will not be displayed
+- A better calibration result can improve AR stability and accuracy
+
+## Conclusion
 
 This project successfully fulfills both requirements of Homework #4:
-
-Camera pose estimation
-AR object visualization
-
+- Camera pose estimation
+- AR object visualization
 Using the calibration result from Homework #3, the program estimates the camera pose from a chessboard pattern and renders a custom AR house on the board.
