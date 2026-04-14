@@ -88,11 +88,11 @@ This object was intentionally designed to be different from the lecture example.
 
 ## Demo
 # Screenshot
-https://github.com/Lohannn03/chessboard-AR-house/raw/main/ar_demo.mp4
+<img width="1919" height="1079" alt="ar_demo" src="https://github.com/user-attachments/assets/e38f81ea-3f57-4378-8737-9759a4bd83ab" />
 
 # Video
 ▶ Watch AR Demo 
-https://github.com/Lohannn03/chessboard-AR-house/blob/main/ar_demo.mp4
+"D:\3학년 2학기\컴퓨터비전\hw4_camera_pose_estimation\ar_demo.mp4"
 
 
 ## Example Output
