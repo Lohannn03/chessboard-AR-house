@@ -56,7 +56,7 @@ Place the following files in the same folder:
 python pose_estimation_ar.py --calib calibration_result.npz --video chessboard.mov --board_w 10 --board_h 7 --cellsize 0.025
 controls
 - ESC — quit
-- I — toggle pose information
+- I — toggle pose information```
 
 ## Camera Calibration Result Used
 
