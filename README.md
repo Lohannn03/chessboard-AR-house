@@ -91,8 +91,7 @@ This object was intentionally designed to be different from the lecture example.
 <img width="1919" height="1079" alt="ar_demo" src="https://github.com/user-attachments/assets/e38f81ea-3f57-4378-8737-9759a4bd83ab" />
 
 # Video
-▶ Watch AR Demo 
-https://github.com/Lohannn03/chessboard-AR-house/blob/main/ar_demo.mp4
+![Video demo](ar_demo.gif)
 
 ## Example Output
 
